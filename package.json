@@ -1,0 +1,22 @@
+{
+  "name": "simpler-browser-require",
+  "description": "An even simpler, node.js-like require() for the browser.",
+  "version": "1.0.0",
+  "author": "popeindustries <alex@pope-industries.com>",
+  "keywords": ["javascript", "modules", "require", "browser"],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "3.3.2",
+    "uglify-js": "2.4.23"
+  },
+  "main": "require.js",
+  "scripts": {
+    "test": "mocha --reporter spec --require should",
+    "compress": "uglifyjs ./require.js -o ./require.min.js"
+  },
+  "repository": "git://github.com/popeindustries/simpler-browser-require.git",
+  "readmefile": "README.md",
+  "readme": "A simple, node.js-like require() for the browser.",
+  "license": "MIT"
+}
