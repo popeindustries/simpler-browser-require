@@ -10,7 +10,7 @@
 Wrapping each module in a ```require.register``` call:
 
 ```js
-require.register('my/module/id', function (require, exports, module) {
+require.register('my/module/id', function (require, module, exports) {
 	// module code here
 });
 ```
@@ -50,7 +50,7 @@ module.exports = MyModule;
 Passing a string (instead of a function) to `require.register` enables lazy evaluation of module contents. The module will be parsed and evaluated only when `require`'d:
 
 ```js
-require.register('my/module/id', "function (require, exports, module) {\n  exports.foo = 'foo';\n}");
+require.register('my/module/id', "function (require, module, exports) {\n  exports.foo = 'foo';\n}");
 ```
 
 The raw source is retrievable via `require.raw(path)`:
