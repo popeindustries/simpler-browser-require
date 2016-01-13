@@ -1,5 +1,5 @@
 [![NPM Version](https://img.shields.io/npm/v/simpler-browser-require.svg?style=flat)](https://npmjs.org/package/simpler-browser-require)
-[![Build Status](https://img.shields.io/travis/popeindustries/browser-require.svg?style=flat)](https://travis-ci.org/popeindustries/simpler-browser-require)
+[![Build Status](https://img.shields.io/travis/popeindustries/simpler-browser-require.svg?style=flat)](https://travis-ci.org/popeindustries/simpler-browser-require)
 
 # simpler-browser-require
 
